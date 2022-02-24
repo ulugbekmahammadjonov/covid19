@@ -26,9 +26,9 @@ function showData(data) {
 
     const div = document.createElement("div");
     div.innerHTML = `
-    <h1 style="margin-right:30px;">${country.countryRegion}</h1>
-    <p style="margin-right:30px;">${country.confirmed}</p>
-    <p style="margin-right:30px;">${country.deaths}</p>
+    <h1 style="margin-right:30px;">Mamlakat nomi:${country.countryRegion}</h1>
+    <p style="margin-right:30px;">Kasallanganlar:${country.confirmed}</p>
+    <p style="margin-right:30px;">Vafot etganlar:${country.deaths}</p>
 
     `;
 
