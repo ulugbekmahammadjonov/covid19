@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: paleturquoise;
+}
+.main-title{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 48px;
+}
+#form{
+    text-align: center;
+}
+#form_input{
+    padding: 12px; 
+    width: 350px;
+    outline: none;
+    border-radius: 8px; 
+    border: 1px solid #666;
+    font-size: 20px;
+}
+.search-btn{
+    padding: 13px; 
+    border: none;
+    font-size: 20px;
+    border-radius: 8px; 
+    background-color: #007fe0;
+    outline: none;
+}
+.main-content-container{
+    display: flex;
+    justify-content: center;
+}
